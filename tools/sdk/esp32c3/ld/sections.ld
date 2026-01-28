@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: /dev/shm/build/esp32-arduino-lib-builder/esp-idf/components/esp_system/ld/esp32c3/sections.ld.in */
+/* Generated from: /home/troy/tasmota_4.4.7/esp32-arduino-lib-builder/esp-idf/components/esp_system/ld/esp32c3/sections.ld.in */
 
 /*
  * SPDX-FileCopyrightText: 2021 Espressif Systems (Shanghai) CO LTD
@@ -349,8 +349,8 @@ SECTIONS
     _bss_start = ABSOLUTE(.);
 
     *(EXCLUDE_FILE(*libbt.a *libbtdm_app.a *libnimble.a) .bss EXCLUDE_FILE(*libbt.a *libbtdm_app.a *libnimble.a) .bss.*)
-    *(.ext_ram.bss .ext_ram.bss.*)
     *(.dynbss .dynsbss .gnu.linkonce.b .gnu.linkonce.b.* .gnu.linkonce.sb .gnu.linkonce.sb.* .gnu.linkonce.sb2 .gnu.linkonce.sb2.* .sbss .sbss.* .sbss2 .sbss2.* .scommon .share.mem)
+    *(.ext_ram.bss .ext_ram.bss.*)
     *(EXCLUDE_FILE(*libbt.a *libbtdm_app.a *libnimble.a) COMMON)
     . = ALIGN(4);
     _bt_bss_start = ABSOLUTE(.);
