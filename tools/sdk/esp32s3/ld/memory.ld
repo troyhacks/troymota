@@ -76,8 +76,8 @@ MEMORY
    * RTC slow memory (data accessible). Persists over deep sleep.
    * Start of RTC slow memory is reserved for ULP co-processor code + data, if enabled.
    */
-  rtc_slow_seg(RW) : org = 0x50000000 + 4096,
-                                     len = 0x2000 - 4096
+  rtc_slow_seg(RW) : org = 0x50000000 + 0,
+                                     len = 0x2000 - 0
 }
 _static_data_end = _bss_end;
 /* Heap ends at top of dram0_0_seg */

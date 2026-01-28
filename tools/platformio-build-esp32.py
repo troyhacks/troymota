@@ -241,7 +241,6 @@ env.Append(
         join(FRAMEWORK_DIR, "tools", "sdk", "esp32", "include", "bt", "host", "nimble", "nimble", "nimble", "host", "store", "config", "include"),
         join(FRAMEWORK_DIR, "tools", "sdk", "esp32", "include", "bt", "host", "nimble", "nimble", "porting", "npl", "freertos", "include"),
         join(FRAMEWORK_DIR, "tools", "sdk", "esp32", "include", "bt", "host", "nimble", "esp-hci", "include"),
-        join(FRAMEWORK_DIR, "tools", "sdk", "esp32", "include", "bt", "host", "nimble", "nimble", "ext", "tinycrypt", "include"),
         join(FRAMEWORK_DIR, "tools", "sdk", "esp32", "include", "cbor", "port", "include"),
         join(FRAMEWORK_DIR, "tools", "sdk", "esp32", "include", "unity", "include"),
         join(FRAMEWORK_DIR, "tools", "sdk", "esp32", "include", "unity", "unity", "src"),
