@@ -58,8 +58,8 @@ MEMORY
 
      Start of RTC slow memory is reserved for ULP co-processor code + data, if enabled.
   */
-  rtc_slow_seg(RW) : org = 0x50000000 + 4096,
-                                     len = 0x2000 - 4096
+  rtc_slow_seg(RW) : org = 0x50000000 + 0,
+                                     len = 0x2000 - 0
   /* RTC fast memory (same block as above), viewed from data bus */
   rtc_data_seg(RW) : org = 0x3ff9e000, len = 0x2000 - (0x10)
   /* external memory, covers the dport, dram0, dram1 cacheable address space */
