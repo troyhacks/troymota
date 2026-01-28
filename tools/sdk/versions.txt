@@ -1,3 +1,4 @@
 esp-idf: v4.4.7 38eeba213a
 arduino: release/v2.x 1f038677e
+esp_littlefs: v1.16.4 71e5492
 tinyusb: 0.14.0 9e91b02
